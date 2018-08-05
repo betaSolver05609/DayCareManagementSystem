@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-image: url('../res/homework.jpg');
+	background-repeat: repeat-x;
+}
+.front_link{
+	color:white;
+}
+.jumbotron{
+	color:white
+	background-image: url('../res/images.jpg');
+    margin: auto;
+    padding: 0 15px;
+    width: 100%;
+    height: 10px;
+}
+
+heading{
+	font-size:42px;
+	color: white;
+}
+h1{
+	color:white;
+}
+td{
+	color: white;
+}
+tr{
+	background-color: #2E8B57;
+}
+
+th {
+    background-color: #7B68EE;
+    color: white;
+}
+tr:hover {background-color: #FFC0CB;}
+table{
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 1;
+}
+#ViewDetails{
+	background-image: url('../res/fiif.jpg');
+	background-repeat: repeat-x;
+	background-size: cover;
+}
+#index{
+	{
+	background-image: url('../res/mogul_mintz1a.jpg');
+	background-repeat: repeat-x;
+}
+#ViewUpdateDetails{
+	background-image: url('../res/fiif.jpg');
+	background-repeat: repeat-x;
+	background-size: cover;
+	
+}
+#registration_success{
+	color: green;
+}
+#generic{
+	background-image: url('../res/fiif.jpg');
+	background-repeat: repeat-x;
+	background-size: cover;
+}

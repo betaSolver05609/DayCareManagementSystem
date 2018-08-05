@@ -1,0 +1,16 @@
+
+select * from BABYSITTER_1418080;
+
+
+select * from Toddler_1418080;
+delete from TODDLER_1418080;
+
+DELETE FROM BABYSITTER_1418080 WHERE BSID=4;
+
+create sequence my_seq_1418080
+start with 2
+increment by 1
+nocache
+nocycle;
+
+insert into BABYSITTER_1418080 values( 4, 'D', 26, 5, 'PART-TIME', 'UNTAGGED' )
